@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+.bg-cover {
+  background-size: cover !important;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.add-to-cart-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#cart {
+  text-align: center;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.circulo {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  color: currentColor;
+
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  background: transparent;
+}
+
+.centralizado {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  width: 21px;
+  height: 21px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 700;
+  background: rgb(80, 161, 48);
+  text-align: center;
+}
+.cesta {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+
+.elemento-z {
+  position: fixed;
+  right: 87px;
+  top: 45px;
+  transform: translateY(-50%);
+
+  padding: 0px;
+  z-index: 2;
+}
+
+.carrossel p {
+  margin: 0;
+  padding: 10px;
+  position: relative;
+}
+
+.carrossel h2 {
+  color: white;
+  text-shadow: black 10.1em 10.1em 0.1em;
+  font-weight: 600;
+  text-shadow: 0.1em 0.1em #333;
+}
+
+.carousel {
+  height: 600px;
+  width: 100%;
+}
+
+.carrossel {
+  width: 100%;
+  height: 600px;
+}
+
+.carrossel img {
+  width: 100%;
+  height: 600px;
+  display: block;
+  object-fit: cover;
+}
+.botao {
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color: #20c997;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+
+.botao:active {
+  transform: scale(0.98);
+
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: black;
+}
+.link:visited {
+  text-decoration: none;
+  color: black;
+}
+.divNoTopo {
+  margin-top: -300px;
+  width: 100%;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+.divNoTopo span {
+  font-size: 75px;
+  font-family: "Cookie", cursive;
+}
+.divNoTopo p {
+  font-size: 20px;
+}
+.div-no-rodape {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card-top {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  margin-left: 10px;
+  margin-top: 3px;
+  width: 400px;
+  border: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  overflow: hidden;
+}
+
+.card-top img {
+  width: 100px;
+  height: 100%;
+  padding: 22px;
+  transition: transform 0.3s ease;
+}
+
+.card-top:hover img {
+  transform: scale(1.2);
+}
+
+.card-text {
+  padding: 10px;
+}
+.rolar {
+  overflow-y: auto;
+}

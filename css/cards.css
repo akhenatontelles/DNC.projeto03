@@ -1,0 +1,50 @@
+body {
+    background: #161616; 
+  }
+  .card-img-left {
+    width: 45.3333%;
+    height:180px;
+    object-fit: cover;
+}
+
+.custom-card {
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.24);
+    transition: box-shadow 0.9s ease;
+    margin-top:-20px;
+    position: relative; 
+}
+.custom-card:hover {
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.custom-card-title {
+    color: #ecf0f1;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.valor {
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.add{
+ 
+    color: #fff;
+    border-radius: 5%;
+    font-size:15px ;
+    font-weight: 200;
+    background: #528d05;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+    
+  }
+  .add:hover {
+    background: #78ca0d;
+    color: #fff;
+  }
+  
